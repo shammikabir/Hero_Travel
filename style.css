@@ -41,6 +41,7 @@
     color:dimgray;
     font-size: 15px;
     font-weight: lighter;
+  
    
 }
 .color {
@@ -83,8 +84,11 @@
    }
 
    .input-field{
+    border: 1px solid white;
+    width: 900px;
     display: flex;
     position: absolute;
+    
    
    }
    .title-explore h1 {
@@ -118,6 +122,11 @@
   margin-right: -15px;
   margin-top: 15px;
  
+   }
+
+   .form-field{
+    border: 1px solid white;
+    width: 800px;
    }
 
    .select {
@@ -530,4 +539,23 @@
   width: 1390px;
   height: 500px;
   background-color: rgba(19,19, 24, 0.1);
+ }
+
+ @media only screen and (max-width:688px){
+  *{
+    margin-left: 0.5px;
+  }
+  .nav-item{
+    visibility: hidden;
+  }
+  .nav img {
+    width: 30%;
+    height: 60%;
+  }
+  .banner-img{
+    width: 688px;
+    height: auto;
+  }
+  
+  
  }
